@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohd Numaan - Creative Designer & Video Editor</title>
+    <meta name="description" content="Professional graphic designer and video editor specializing in social media content, brand identity, and creative visual solutions.">
+    
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="Mohd Numaan - Creative Designer & Video Editor">
+    <meta property="og:description" content="Design that feels fresh, fun & unforgettable. Specializing in banners, pamphlets, business cards, social posts, and short-form video.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mohd Numaan Portfolio">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    
+    <!-- Preload critical fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Header -->
+    <header class="navbar" id="navbar">
+        <nav class="nav-container">
+            <div class="nav-brand">
+                <a href="#" class="brand-link" data-route="/">
+                    Mohd Numaan — <span class="brand-accent">dripitair / elxeleven</span>
+                </a>
+            </div>
+            
+            <div class="nav-menu" id="navMenu">
+                <a href="#projects" class="nav-link" data-route="/#projects">Projects</a>
+                <a href="#skills" class="nav-link" data-route="/#skills">Skills</a>
+                <a href="#youtube" class="nav-link" data-route="/youtube">YouTube</a>
+                <a href="#pricing" class="nav-link" data-route="/pricing">Pricing</a>
+                <a href="#reviews" class="nav-link" data-route="/reviews">Reviews</a>
+                <a href="#contact" class="nav-link" data-route="/#contact">Contact</a>
+                <a href="/resume.pdf" class="btn btn--primary btn--sm" target="_blank" rel="noopener">Download CV</a>
+            </div>
+            
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main id="app">
+        <!-- Home Page -->
+        <div class="page" id="homePage">
+            <!-- Hero Section -->
+            <section class="hero" id="hero">
+                <div class="container">
+                    <div class="hero-grid">
+                        <div class="hero-content">
+                            <h1 class="hero-title">Design that feels fresh, fun & unforgettable.</h1>
+                            <p class="hero-subtitle">
+                                Specializing in banners, pamphlets, business cards, social posts, and short-form video content that captures attention and drives engagement.
+                            </p>
+                            <div class="hero-actions">
+                                <a href="#contact" class="btn btn--primary" data-route="/#contact">Hire me</a>
+                                <a href="#projects" class="btn btn--outline" data-route="/#projects">See work</a>
+                            </div>
+                        </div>
+                        
+                        <div class="hero-feature">
+                            <div class="feature-card">
+                                <div class="feature-image">
+                                    <img src="images/hero-sample.jpg" 
+     alt="Featured Project" 
+     class="hero-feature-image"
+     style="width: 100%; height: 300px; object-fit: cover; border-radius: 16px;"
+     onerror="this.style.display='none'">
+</div>
+                                <div class="feature-content">
+                                    <h3>Featured Project</h3>
+                                    <p>Latest brand identity design showcasing modern aesthetics and creative problem-solving.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="projects" id="projects">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Recent Projects</h2>
+                        <p>A showcase of my creative work across different mediums and platforms</p>
+                    </div>
+                    
+                    <div class="projects-grid" id="projectsGrid">
+                        <!-- Projects will be loaded dynamically -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Skills Section -->
+            <section class="skills" id="skills">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Skills & Expertise</h2>
+                        <p>Tools and services that bring creative visions to life</p>
+                    </div>
+                    
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <h3>Design Tools</h3>
+                            <ul class="skill-list">
+                                <li>CorelDRAW</li>
+                                <li>Adobe Photoshop</li>
+                                <li>Adobe Premiere Pro</li>
+                                <li>Canva</li>
+                                <li>AI tools (ChatGPT / Adobe)</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="skill-card">
+                            <h3>Services</h3>
+                            <ul class="skill-list">
+                                <li>Banner & poster design</li>
+                                <li>Social media graphics & reels</li>
+                                <li>Business cards & stationery</li>
+                                <li>Video editing for social media</li>
+                                <li>Brand identity & visual systems</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- YouTube Teaser -->
+            <section class="youtube-teaser">
+                <div class="container">
+                    <div class="teaser-content">
+                        <h2>Creative Process & Tutorials</h2>
+                        <p>Watch my design process and learn creative techniques on YouTube</p>
+                        <a href="#youtube" class="btn btn--primary" data-route="/youtube">Watch Videos</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact CTA -->
+            <section class="contact-cta" id="contact">
+                <div class="container">
+                    <div class="contact-grid">
+                        <div class="contact-info">
+                            <h2>Let's Create Something Amazing</h2>
+                            <div class="contact-details">
+                                <a href="mailto:mohdnumaan59@gmail.com" class="contact-item">
+                                    <span class="contact-icon">✉</span>
+                                    <span>mohdnumaan59@gmail.com</span>
+                                </a>
+                                <a href="tel:+917670970854" class="contact-item">
+                                    <span class="contact-icon">📞</span>
+                                    <span>+91 7670970854</span>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-form-container">
+                            <form class="contact-form" id="contactForm">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name" required id="contactName">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email" required id="contactEmail">
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="4" placeholder="Your Message" required id="contactMessage"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                                <div class="form-status" id="formStatus"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- YouTube Page -->
+        <div class="page hidden" id="youtubePage">
+            <section class="page-section">
+                <div class="container">
+                    <div class="page-header">
+                        <h1>YouTube Content</h1>
+                        <p>Design tutorials, creative processes, and behind-the-scenes content</p>
+                    </div>
+                    
+                    <div class="youtube-channels">
+                        <a href="https://www.youtube.com/channel/UCij_qaJ-LRHnHGsADPQz6Cw" target="_blank" rel="noopener" class="channel-btn hoverable">
+                            <span>dripitair</span>
+                        </a>
+                        <a href="https://youtube.com/@elxvibe?si=8hHqBVvbrXiLG3vV" target="_blank" rel="noopener" class="channel-btn hoverable">
+                            <span>elxvibe</span>
+                        </a>
+                    </div>
+                    
+                    <div class="videos-grid" id="videosGrid">
+                        <!-- Videos will be loaded dynamically -->
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Pricing Page -->
+        <div class="page hidden" id="pricingPage">
+            <section class="page-section">
+                <div class="container">
+                    <div class="page-header">
+                        <h1>Service Pricing</h1>
+                        <p>Transparent pricing for all design and video services</p>
+                    </div>
+                    
+                    <div class="pricing-grid" id="pricingGrid">
+                        <!-- Pricing cards will be loaded dynamically -->
+                    </div>
+                    
+                    <div class="pricing-cta">
+                        <p>Need a custom quote?</p>
+                        <a href="#contact" class="btn btn--primary" data-route="/#contact">Get in Touch</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Reviews Page -->
+        <div class="page hidden" id="reviewsPage">
+            <section class="page-section">
+                <div class="container">
+                    <div class="page-header">
+                        <h1>Client Reviews</h1>
+                        <p>What clients say about working with me</p>
+                    </div>
+                    
+                    <div class="reviews-grid">
+                        <div class="reviews-section">
+                            <h2>Testimonials</h2>
+                            <div class="testimonials" id="testimonials">
+                                <!-- Testimonials will be loaded dynamically -->
+                            </div>
+                            
+                            <div class="testimonial-form">
+                                <h3>Leave a Testimonial</h3>
+                                <form id="testimonialForm">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Your Name" required id="testName">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Company" id="testCompany">
+                                    </div>
+                                    <div class="form-group">
+                                        <textarea class="form-control" rows="3" placeholder="Your Review" required id="testReview"></textarea>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="rating-input">
+                                            <label>Rating:</label>
+                                            <div class="stars" id="starRating">
+                                                <span class="star" data-rating="1">★</span>
+                                                <span class="star" data-rating="2">★</span>
+                                                <span class="star" data-rating="3">★</span>
+                                                <span class="star" data-rating="4">★</span>
+                                                <span class="star" data-rating="5">★</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btn btn--primary">Submit Testimonial</button>
+                                </form>
+                            </div>
+                        </div>
+                        
+                        <div class="google-reviews">
+                            <h2>Google Reviews</h2>
+                            <div class="google-reviews-content">
+                                <p>See what clients are saying on Google</p>
+                                <a href="https://share.google/vQXuS7er7rW6PXtcx" target="_blank" rel="noopener" class="btn btn--outline">See on Google</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <p>&copy; 2025 Mohd Numaan. All rights reserved.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="mailto:mohdnumaan59@gmail.com">Email</a>
+                    <a href="tel:+917670970854">Phone</a>
+                    <a href="/resume.pdf" target="_blank">Resume</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="app.js"></script>
+</body>
+</html>
